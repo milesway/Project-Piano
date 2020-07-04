@@ -1,7 +1,7 @@
 # Project-Piano
 A piano controlled by your keyboard made by PyGame
 
-The project is available on [github](https://github.com/milesway/Project-Piano).
+**The project is available on [Github](https://github.com/milesway/Project-Piano).**
 
 This program has two main part. A GUI that show a piano that allows you to control it using your keyboard. And a phase vocoder that changes the pitch of your input file and maps different pitches to each piano key.
  
