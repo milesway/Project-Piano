@@ -53,6 +53,7 @@ Note: if you want to use a whole sound, please understand this may need a long t
 
 ## Techniques
 The main function of GUI is provided by PyGame, an open-source Python model. However, the process of using it is hard. First, we need to create a pygame object, then draw the basic interface windows and fill the content with pictures of piano keys. I creat the keys using Photoshop, with 93 pixels width and 374 pixels height. Then, for each key, I map a music file to it and assign a keyboard key. Therefore, when the user presses a key, a function will be called inside that key object and output through pygame mixer. 
+
 In order to change the pitch of a wav file, the program has a phase vocoder built inside. The operation process is as follows:
 1. user input a wav file
 2. **readWaveFile** takes the file and transfers it into a numpy array
